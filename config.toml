@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "/"
+baseurl = "https://rimivan.github.io/public"
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
