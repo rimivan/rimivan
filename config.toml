@@ -1,0 +1,63 @@
+## Basic Configuration
+
+baseurl = "/"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Ivan Rimola"
+title = "Ivan Rimola"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Ivan Rimola"
+intro = "Software Developer"
+description = "Now @Sky. Project ----> "
+authorimage = "iri.png"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "<username>"
+instagram = "<username>"
+twitter = "<username>"
+linkedin = "<username>"
+facebook = "<username>"
+medium = "<username>"
+devto = "<username>"
+email = "you@example.com"
+
+## Extras
+[params.extra]
+copyright = "© 2020. Ivan Rimola"
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 200
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 100
+    url = "/about/"
