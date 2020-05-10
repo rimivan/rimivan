@@ -1,6 +1,7 @@
 {
-	"name": "hugo",
+	"name": "rimivan",
 	"icons": [
+		"favico-32x32.png"
 	],
 	"theme_color": "#ffffff",
 	"display": "standalone"
