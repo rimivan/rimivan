@@ -21,7 +21,8 @@ enableRobotsTXT = true
 [params]
 author = "Ivan Rimola"
 intro = "Software Developer"
-description = "Now @Sky. Project ----> "
+description = "Now Software Developer Consultant"
+project = "Current project: SkyTG24 Website(tg24.sky.it)"
 authorimage = "iri.png"
 dateformat = "Jan 2, 2006"
 

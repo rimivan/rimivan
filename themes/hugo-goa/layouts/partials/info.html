@@ -5,4 +5,7 @@
   {{ with .Site.Params.description }}
   <h4 class="description">{{ . | markdownify }}</h4>
   {{ end }}
+  {{ with .Site.Params.project }}
+  <h4 class="description project">{{ . | markdownify }}</h4>
+  {{ end }}
 </section>
