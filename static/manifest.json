@@ -1,7 +1,11 @@
 {
 	"name": "rimivan",
 	"icons": [
-		"https://rimivan.now.sh/favico-32x32.png"
+		{
+			"src": "https://rimivan.now.sh/favico-32x32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		  }
 	],
 	"theme_color": "#ffffff",
 	"display": "standalone"
