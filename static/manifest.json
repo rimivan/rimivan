@@ -1,5 +1,6 @@
 {
   "name": "Rimivan",
+  "short_name": "Rimivan",
   "theme_color": "#fcfcfc",
   "background_color": "#fcfcfc",
   "display": "standalone",
