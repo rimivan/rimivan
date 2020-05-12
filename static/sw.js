@@ -39,6 +39,12 @@ if (workbox) {
           cacheName: 'fontawesome-cache',
         }),
     );
+    workbox.routing.registerRoute(
+        '/\.(?:woff|woff2)$/',
+        new workbox.strategies.StaleWhileRevalidate({
+          cacheName: 'fonts-cache',
+        }),
+    );
 
 } else {
   console.log(`Boo! Workbox didn't load 😬`);
