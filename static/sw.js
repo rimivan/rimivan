@@ -2,6 +2,21 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox
 
 if (workbox) {
     console.log(`Yay! Workbox is loaded 🎉`);
+    workbox.routing.registerRoute(
+        new RegExp(self.location.origin),
+        new workbox.strategies.NetworkFirst({
+          cacheName: 'pages-cache',
+          plugins: [
+            new workbox.cacheableResponse.Plugin({
+              statuses: [200],
+            }),
+            new workbox.expiration.Plugin({
+              maxAgeSeconds: 5 * 24 * 60 * 60, // 5 days
+              maxEntries: 35,
+            }),
+          ],
+        })
+    );
     // Cache js/css files.
     workbox.routing.registerRoute(
         /\.(?:js|css)$/,
@@ -21,6 +36,7 @@ if (workbox) {
           cacheName: 'google-fonts-cache',
         }),
     );
+
 } else {
   console.log(`Boo! Workbox didn't load 😬`);
 }
