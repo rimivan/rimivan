@@ -27,6 +27,18 @@ if (workbox) {
           cacheName: 'google-fonts-cache',
         }),
     );
+    workbox.routing.registerRoute(
+        'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css',
+        new workbox.strategies.StaleWhileRevalidate({
+          cacheName: 'bootstrap-cache',
+        }),
+    );
+    workbox.routing.registerRoute(
+        'https://use.fontawesome.com/releases/v5.8.2/css/all.css',
+        new workbox.strategies.StaleWhileRevalidate({
+          cacheName: 'fontawesome-cache',
+        }),
+    );
 
 } else {
   console.log(`Boo! Workbox didn't load 😬`);
