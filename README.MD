@@ -2,6 +2,7 @@
 
 ## TECHNOLOGIES
 - HUGO
+- DEPLOYED ON VERCEL(https://vercel.com/)
 
 ## USAGE
 - Compile in CLI: hugo
