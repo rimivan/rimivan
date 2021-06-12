@@ -21,8 +21,8 @@ enableRobotsTXT = true
 [params]
 author = "Ivan Rimola"
 intro = "Software Developer"
-description = "Now Software Developer Consultant"
-project = "Current project: SkyTG24 Website(tg24.sky.it)"
+description = "Now Software Developer Engineer Frontend"
+project = "NTT-Data Italia"
 authorimage = "iri.jpg"
 dateformat = "Jan 2, 2006"
 
@@ -44,7 +44,7 @@ email = "you@example.com"
 
 ## Extras
 [params.extra]
-copyright = "© 2020. Ivan Rimola"
+copyright = "© 2021. Ivan Rimola"
 poweredby = true
 highlightjs = true
 socialmarkup = true
@@ -52,11 +52,11 @@ toc = true
 displayrssicon = true
 
 ## Main Menu
-[[menu.main]]
-    name = "blog"
-    weight = 200
-    identifier = "blog"
-    url = "/blog/"
+## [[menu.main]]
+##    name = "blog"
+##    weight = 200
+##    identifier = "blog"
+##    url = "/blog/"
 [[menu.main]]
     name = "about"
     identifier = "about"
