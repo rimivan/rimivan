@@ -1,8 +1,8 @@
 {
-  "name": "Rimivan",
-  "short_name": "Rimivan",
-  "theme_color": "#fcfcfc",
-  "background_color": "#fcfcfc",
+  "name": "rimivan",
+  "short_name": "rimivan",
+  "theme_color": "#fff",
+  "background_color": "#fff",
   "display": "standalone",
   "Scope": "/",
   "start_url": "/",
