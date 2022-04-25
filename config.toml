@@ -44,7 +44,7 @@ email = "you@example.com"
 
 ## Extras
 [params.extra]
-copyright = "© 2021. Ivan Rimola"
+copyright = "© 2022. Ivan Rimola"
 poweredby = true
 highlightjs = true
 socialmarkup = true
