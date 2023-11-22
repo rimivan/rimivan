@@ -2,22 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Ivan Rimola</title>
-    <link>https://rimivan.github.io/posts/</link>
+    <link>/posts/</link>
     <description>Recent content in Posts on Ivan Rimola</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    
-	<atom:link href="https://rimivan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://rimivan.github.io/posts/ir/</link>
+      <link>/posts/ir/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rimivan.github.io/posts/ir/</guid>
+      <guid>/posts/ir/</guid>
       <description>PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO PIPPO</description>
     </item>
-    
   </channel>
 </rss>
