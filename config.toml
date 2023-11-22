@@ -20,7 +20,7 @@ enableRobotsTXT = true
 ## Site Settings
 [params]
 author = "Ivan Rimola"
-intro = "Software Developer"
+intro = "🔎 MY OWN 0️⃣ TO 1️⃣"
 description = "Now Software Developer Engineer Frontend"
 project = "NTT-Data Italia"
 authorimage = "iri.jpg"
@@ -44,7 +44,7 @@ email = "you@example.com"
 
 ## Extras
 [params.extra]
-copyright = "© 2022. Ivan Rimola"
+copyright = "© 2023. Ivan Rimola"
 poweredby = true
 highlightjs = true
 socialmarkup = true
