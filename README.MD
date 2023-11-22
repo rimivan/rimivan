@@ -1,4 +1,4 @@
-# SEARCHING MY OWN 0 TO 1
+# 🔎 MY OWN 0️⃣ TO 1️⃣
 
 ## Welcome 👋
 
